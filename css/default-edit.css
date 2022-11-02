@@ -32,6 +32,10 @@
     background: transparent;
 }
 
+.default-button.default-button--theme3 {
+    background: var(--theme__color3);
+}
+
 /* buttons-end */
 
 

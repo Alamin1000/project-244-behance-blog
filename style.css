@@ -472,7 +472,7 @@ p:last-child{
 
 /* ---blog-v-section--- */
 .blog-v-section {
-
+  padding: 0 0 50px;
 }
 .blog-v-section-inner {
   padding-right: 358px;
@@ -779,6 +779,20 @@ p:last-child{
 
 
 
+.bv-pg-texts-bt-sum {
+  margin: 17px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.bv-pg-texts-bt-sum p {
+  font-size: 12px;
+  color: #545454;
+  margin: 0;
+  font-family: var(--poppins);
+}
+
+
+
 .full-bnr {
   margin: 43px 0;
   padding: 45px 45px;
@@ -917,3 +931,324 @@ p:last-child{
   color: #959595;
 }
 /* ---templates-section---end */
+
+
+/* ---chk-section--- */
+.chk-section {
+  padding: 80px 0;
+}
+.chk-section-inner {
+
+}
+
+.chk-box {
+  padding: 38px 40px;
+  margin: 0 auto;
+  max-width: 1393px;
+  background: linear-gradient(90.82deg, #4774D9 -13.66%, #57CCDF 78.52%);
+  border-radius: 5px;
+  color: #fff;
+}
+.chk-box .envato {
+  width: 166px;
+  margin: 0 0 10px;
+}
+.chk-box h3 {
+  font-size: 36px;
+  margin: 0 0 14px;
+  font-weight: 600;
+  font-family: var(--poppins);
+}
+.chk-box p {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--poppins);
+}
+.chk-box .bottom-button {
+  margin: 10px 0 0;
+}
+/* ---chk-section---end */
+
+
+/* ---cta-section--- */
+.cta-section {
+  padding: 28px 0 22px;
+  background: #F1F4F9;
+}
+.cta-section-inner {
+  text-align: center;
+}
+
+.cta-x {
+
+}
+.cta-x .cta-bx-btn {
+  font-size: 20px;
+  max-width: 890px;
+  padding: 13px 23px 13px;
+  margin: 0 0 18px;
+  width: 100%;
+  border-radius: 50px;
+  font-weight: 500;
+  font-family: var(--inter);
+  background: #DEEBF3;
+  border: 1px dashed var(--theme__color2);
+  color: var(--theme__color2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.cta-x p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #696969;
+  font: var(--poppins);
+}
+/* ---cta-section---end */
+
+
+
+/* ---footer-section--- */
+.footer-section {
+  background: #DEEBF3;
+}
+.footer-section-inner {
+  max-width: 1456px;
+  margin: 0 auto;
+}
+
+
+.footer-top {
+
+}
+.footer-top-inner {
+  padding: 74px 0;
+}
+.footer-top-row {
+  display: flex;
+}
+.footer-logo-column {
+  flex-grow: 1;
+}
+.footer-lc-tp {
+  margin: 0 0 45px;
+}
+.footer-lc-tp .footer-logo {
+  width: 78px;
+  margin: 0 0 20px;
+  display: flex;
+}
+.footer-lc-tp p {
+  font-size: 14px;
+  line-height: 1.9;
+  font-weight: 400;
+  font-family: var(--poppins);
+  color: #696969;
+}
+.flc-menu {
+
+}
+.flc-menu li {
+  margin-bottom: 15px;
+}
+.flc-menu li:last-child {
+  margin-bottom: 0;
+}
+.flc-menu li a {
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 500;
+  font-family: var(--poppins);
+  color: #545454;
+  display: flex;
+  transition: 0.3s;
+}
+.flc-menu li a:hover {
+  color: var(--theme__color2);
+}
+.flc-menu li a .icon {
+	width: 18px;
+	font-size: 13px;
+	display: flex;
+	justify-content: center;
+	margin: 0 21px 0 0;
+	align-items: center;
+}
+
+.footer-menu-column {
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-menu-column .title {
+  margin: 0 0 16px;
+}
+.footer-menu-column .title h4 {
+  font-size: 17px;
+  line-height: 1;
+  margin: 0 0 0px;
+  font-weight: 600;
+  color: #434665;
+  font-family: var(--poppins);
+}
+.footer-menu-column .title .bt-img {
+  width: 54px;
+}
+.f-menu {
+
+}
+.f-menu li {
+  margin-bottom: 19px;
+}
+.f-menu li:last-child {
+  margin-bottom: 0;
+}
+.f-menu li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #696969;
+  font-family: var(--poppins);
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+.f-menu li a:hover {
+  color: var(--theme__color2);
+}
+.f-menu li a .bullet {
+  width: 13px;
+  margin: 0 7px 0 0;
+}
+.f-menu li a .icon {
+	font-size: 15px;
+	color: #3F4160;
+	width: 19px;
+	margin: 0 8px 0 0;
+	display: flex;
+	justify-content: center;
+}
+.f-menu li a .text {
+
+}
+
+.footer-cta {
+  margin: 0 0 60px;
+  display: flex;
+}
+.footer-cta .input-outer {
+  position: absolute;
+}
+.footer-cta .input-outer .input {
+  padding: 3px 25px;
+  height: 39px;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: var(--poppins);
+  color: #3E3F5E;
+  box-shadow: 0px 30px 20px rgba(216, 216, 216, 0.16);
+  border-radius: 26.5px;
+  background: #fff;
+  border-radius: 50px;
+  border: 1px solid transparent;
+}
+.footer-cta .input-outer .send-button {
+  width: 39px;
+  height: 39px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  background: var(--theme__color2);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.footer-cta .input-outer .send-button:hover {
+  background: var(--theme__color3);
+}
+
+.footer-download {
+  
+}
+.footer-download h4 {
+  font-size: 20px;
+  line-height: 1;
+  margin: 0 0 12px;
+  font-weight: 600;
+  color: #434665;
+  font-family: var(--poppins);
+}
+.footer-download ul {
+  display: flex;
+}
+.footer-download li {
+  margin-right: 23px;
+}
+.footer-download li:last-child {
+  margin-right: 0;
+}
+.footer-download li a {
+  display: flex;
+  width: 30px;
+  transition: 0.3s;
+}
+.footer-download li a:hover {
+  opacity: 0.7;
+}
+
+
+
+.footer-bottom {
+  background: #D4E1E5;
+}
+.footer-bottom-inner {
+  padding: 30px 0;
+}
+.copy-right {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--poppins);
+  color: #3E3F5E;
+}
+/* ---footer-section---end */
+
+
+/* ---tac-modal--- */
+.tac-modal-dialog {
+  max-width: 700px;
+}
+.tac-modal-content {
+  padding: 57px;
+  display: flex;
+  align-items: center;
+  background: #ECEFFA;
+  border: 1px solid #B0B1CB;
+
+}
+.tac-modal-content .text-side {
+  flex-grow: 1;
+  padding-right: 30px;
+}
+.tac-modal-content .text-side h3 {
+  font-size: 21px;
+  margin: 0 0 0px;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: var(--poppins);
+  color: #16192B;
+}
+.tac-modal-content .text-side p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: var(--poppins);
+}
+.tac-modal-content .button-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ---tac-modal---end */
