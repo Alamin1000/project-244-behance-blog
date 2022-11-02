@@ -35,7 +35,16 @@
 
 
 @media (max-width: 1199px) {
-    
+    .vbc-tp-main-row {
+        flex-wrap: wrap;
+    }
+
+    .vbc-tp-mr-left {
+        width: 100%;
+    }
+    .vbc-tp-mr-right {
+        width: 100%;
+    }
 }
 
 
