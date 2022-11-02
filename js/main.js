@@ -25,25 +25,23 @@
   });
 
   // owl-carousel
-  $('.brand-active').owlCarousel({
+  $('.templates-slider-active').owlCarousel({
     loop:true,
-    margin:50,
+    autoWidth:true,
+    margin:18,
+    dots:false,
     responsiveClass:true,
     nav:false,
     navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
     responsive:{
         0:{
-            items:1,
-            nav:false
+          
         },
         600:{
-            items:3,
-            nav:false
+          
         },
         1000:{
-            items:4,
-            nav:false,
-            loop:false
+
         }
     }
   });
