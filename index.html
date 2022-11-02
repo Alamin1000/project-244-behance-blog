@@ -25,23 +25,56 @@
 	<div class="main-wrap">
 		<!-- offcanvas-start -->
 		<div class="offcanvas-menu">
-			<ul class="offmenu" id="menuParent">
-				<a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-				<li class="active"><a href="#">HOME</a></li>
-				<li><a href="#">ABOUT US</a></li>
-				<li class="dropdown">
-					<a href="#" data-bs-toggle="collapse" data-bs-target='#drop-menu1'>OUR HORSES</a>
-					<div class="dropdown-menu-custom collapse" id="drop-menu1" data-bs-parent="#menuParent">
+			<div class="offmenu" id="menuParent">
+				<a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+
+				<div class="offcanvas-top-c">
+					<a href="#" class="ht-l-btn ms-0">Log in</a>
+					<div class="ht-user">
+						<a href="#" class="image">
+							<img src="images/user.png" alt="" class="img">
+							<div class="ind-ellipse"></div>
+						</a>
+					</div>
+				</div>
+
+				<ul class="mobile-menu">
+					<li><a href="#">Contacts</a></li>
+					<li><a href="#">Simba</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Register</a></li>
+				</ul>
+
+				<div class="offcanvas-bottom-c">
+					<div class="hb-menu">
 						<ul>
-							<li><a href="#">YEARLINGS</a></li>
-							<li><a href="#">2 YEAR OLDS</a></li>
-							<li><a href="#">3 YEAR OLD PLUS</a></li>
+							<li>
+								<a href="#">
+									<div class="icon">
+										<img src="images/shits.svg" alt="">
+									</div>
+									<span class="txt">UI Templates</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="icon">
+										<span class="ind-ring"></span>
+										<img src="images/chat.svg" alt="">
+									</div>
+									<span class="txt">Marketing</span>
+								</a>
+							</li>
 						</ul>
 					</div>
-				</li>
-				<li><a href="#">LATEST NEWS</a></li>
-				<li><a href="#">CONTACT & FIND US</a></li>
-			</ul>
+					<a class="hb-r-btn default-button ms-0">
+						<span class="txt">PREVIEW NOW</span>
+						<i class="far fa-chevron-right"></i>
+					</a>
+				</div>
+
+			</div>
 		</div>
 		<div class="offcanvas-overlay"></div>
 		<!-- offcanvas-start-end -->
@@ -58,7 +91,7 @@
 								<img src="images/Behance.png" alt="">
 							</a>
 							
-							<div class="ht-right">
+							<div class="ht-right d-xl-flex d-none">
 								<div class="main-menu">
 									<ul>
 										<li><a href="#">Contacts</a></li>
@@ -76,6 +109,10 @@
 									</a>
 								</div>
 							</div>
+
+							<a href="javascript:void(0)" class="offcanvas-open d-xl-none">
+								<i class="far fa-bars"></i>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -90,7 +127,7 @@
 								<input type="text" class="input" placeholder="Search">
 							</div>
 
-							<div class="hb-right">
+							<div class="hb-right d-xl-flex d-none">
 								<div class="hb-menu">
 									<ul>
 										<li>

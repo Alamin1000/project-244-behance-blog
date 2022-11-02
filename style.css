@@ -363,8 +363,10 @@ p:last-child{
   color: var(--theme__color1);
   position: absolute;
   transition: 0.3s;
-  right: 25px;
-  top: 25px;
+  right: 15px;
+  top: 15px;
+  line-height: 1;
+  font-size: 22px;
 }
 .offcanvas-close:hover {
   color: #97A3AE;
@@ -387,7 +389,7 @@ p:last-child{
   min-width: 200px;
   z-index: 5;
   position: relative;
-  background: #d5dce2;
+  background: #fff;
   height: 100%;
   padding: 50px 20px 40px;
   overflow: auto;
@@ -397,13 +399,35 @@ p:last-child{
 .offcanvas-menu .offmenu :-webkit-scrollbar {
   display: none;
 }
-.offcanvas-menu ul li a {
+.mobile-menu li a {
   display: block;
-  text-align: center;
-  font-size: 16px;
-  color: var(--theme__color1);
-  padding: 10px;
+  font-size: 14px;
+  color: #545454;
+  padding: 8px 12px;
 }
+
+.offcanvas-top-c {
+  margin: 0 0 20px;
+  display: flex;
+  align-items: center;
+}
+.offcanvas-bottom-c {
+  margin: 20px 0 0;
+}
+.offcanvas-bottom-c .hb-menu ul {
+  flex-direction: column;
+  align-items: stretch;
+}
+.offcanvas-bottom-c .hb-menu ul li {
+  margin: 0 0 20px;
+  border: none;
+  width: 100%;
+}
+.offcanvas-bottom-c .hb-menu ul li a {
+  justify-content: flex-start;
+}
+
+
 .offcanvas-overlay {
   position: fixed;
   top: 0;
@@ -487,10 +511,12 @@ p:last-child{
 }
 .breadcrumb ul {
   display: flex;
+  flex-wrap: wrap;
 }
 .breadcrumb ul li {
   display: flex;
   align-items: center;
+  margin-bottom: 8px;
 }
 .breadcrumb ul li a {
   font-size: 14px;
@@ -526,6 +552,7 @@ p:last-child{
   position: relative;
   z-index: 1;
   display: flex;
+  flex-wrap: nowrap;
 }
 .ft-nav::after {
   content: '';
@@ -540,11 +567,14 @@ p:last-child{
 }
 .ft-nav ul {
   display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
 }
 .ft-nav ul li {
   --vp: 22px;
   display: flex;
   margin-right: var(--vp);
+  flex-shrink: 0;
 }
 .ft-nav ul li a {
   padding: 16px 0;

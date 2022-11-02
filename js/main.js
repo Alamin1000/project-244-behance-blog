@@ -31,13 +31,14 @@
     margin:18,
     dots:false,
     responsiveClass:true,
+    autoplay:true,
     nav:false,
     navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
     responsive:{
         0:{
-          
+          center: true
         },
-        600:{
+        991:{
           
         },
         1000:{
