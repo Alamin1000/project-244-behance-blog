@@ -117,8 +117,6 @@ ul{
     list-style: none;
 }
 p{
-  font-size: 18px;
-  line-height: 1.2;
   margin-bottom: 15px;
 }
 p:last-child{
@@ -631,6 +629,9 @@ p:last-child{
   border-radius: 3px;
   display: flex;
 }
+.s-blg-t-menu ul li a.green {
+  color: #1DBF73;
+}
 .s-blg-t-menu ul li a .icon {
   width: 42px;
   display: flex;
@@ -1133,13 +1134,18 @@ p:last-child{
 }
 
 .footer-cta {
-  margin: 0 0 60px;
+  margin: 0 0 20px;
+  display: flex;
+}
+.footer-cta form {
   display: flex;
 }
 .footer-cta .input-outer {
-  position: absolute;
+  position: relative;
+  width: 100%;
 }
 .footer-cta .input-outer .input {
+  width: 100%;
   padding: 3px 25px;
   height: 39px;
   font-size: 14px;

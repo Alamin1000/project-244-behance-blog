@@ -1,12 +1,41 @@
 
 
+@media (max-width: 1799px) {
+    .blog-v-section-inner {
+        padding-right: 0;
+    }
+
+    .blog-v-title-rw {
+        padding: 39px 0px 39px 0;
+    }
+}
+
+
 @media (max-width: 1399px) {
- 
+    .blog-v-section-inner {
+        padding-right: 0;
+    }
+
+    .vbc-tp-mr-right {
+        width: 25%;
+    }
+    .vbc-tp-mr-left {
+        width: 70%;
+    }
+
+
+    .footer-menu-column {
+        width: 18%;
+    }
+    .footer-logo-column {
+        flex-grow: 0;
+        width: 25%;
+    }
 }
 
 
 @media (max-width: 1199px) {
- 
+    
 }
 
 
