@@ -6,7 +6,7 @@
     font-weight: 600;
     font-family: var(--poppins);
     border: 1px solid transparent;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     text-align: center;
