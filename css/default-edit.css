@@ -1,6 +1,6 @@
 /* buttons */
 .default-button {
-    padding: 7px 23px 9px;
+    padding: 8px 23px 8px;
     font-size: 15px;
     border-radius: 3px;
     font-weight: 600;
@@ -17,6 +17,10 @@
 .default-button:hover {
     color: #fff;
     background: var(--theme__color2);
+}
+.default-button .fa-chevron-right {
+    font-size: 11px;
+    margin: 0 0 0 7px;
 }
 /* buttons-end */
 
