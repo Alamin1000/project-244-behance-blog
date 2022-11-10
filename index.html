@@ -10,6 +10,7 @@
 	<link href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css" rel="stylesheet">
 	<!-- plugin-css -->
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
 	<!-- StyleSheet's -->
 	<link rel="stylesheet" href="css/default-edit.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -261,7 +262,7 @@
 									<!-- left-side-end -->
 
 									<!-- right-side -->
-									<div class="vbc-tp-mr-right pt-5">
+									<div class="vbc-tp-mr-right pt-5 d-xl-block d-none">
 										<div class="s-blg-sd-tp">
 											<a href="#" class="vw-btn">View/ Hire Author</a>
 											<p><em>*This writer is available for hire in history projects</em></p>
@@ -318,78 +319,81 @@
 												<div class="txt">Tags</div>
 												<i class="far fa-chevron-down ind"></i>
 											</h4>
-											<div class="s-blg-sd-tags-i-wrap">
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">Blog</span>
-													<span class="r-count">(32)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">Blogging</span>
-													<span class="r-count">(20)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">Magazine</span>
-													<span class="r-count">(32)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">Modern</span>
-													<span class="r-count">(20)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">News</span>
-													<span class="r-count">(32)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">News</span>
-													<span class="r-count">(20)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">Blogger</span>
-													<span class="r-count">(32)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">Blog</span>
-													<span class="r-count">(32)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">Blogging</span>
-													<span class="r-count">(20)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">Magazine</span>
-													<span class="r-count">(32)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">Modern</span>
-													<span class="r-count">(20)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">News</span>
-													<span class="r-count">(32)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">News</span>
-													<span class="r-count">(20)</span>
-												</label>
-												<label class="s-blg-sd-tags-i">
-													<input type="checkbox" class="checkbox checkbox-model">
-													<span class="txt">Blogger</span>
-													<span class="r-count">(32)</span>
-												</label>
+											<div class="s-blg-sd-tags-i-wrap custom-scroll">
+												<div class="s-blg-sd-tags-i-wrap-inner" id="">
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Blog</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Blogging</span>
+														<span class="r-count">(20)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Magazine</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Modern</span>
+														<span class="r-count">(20)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">News</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">News</span>
+														<span class="r-count">(20)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Blogger</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Blog</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Blogging</span>
+														<span class="r-count">(20)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Magazine</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Modern</span>
+														<span class="r-count">(20)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">News</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">News</span>
+														<span class="r-count">(20)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Blogger</span>
+														<span class="r-count">(32)</span>
+													</label>
+												</div>
 											</div>
+											
 										</div>
 									</div>
 									<!-- right-side-end -->
@@ -429,6 +433,143 @@
 										</div>
 									</div>
 									<!-- left-side-end -->
+
+
+									<!-- right-side -->
+									<div class="vbc-tp-mr-right pt-5 d-xl-none">
+										<div class="s-blg-sd-tp">
+											<a href="#" class="vw-btn">View/ Hire Author</a>
+											<p><em>*This writer is available for hire in history projects</em></p>
+										</div>
+
+										<div class="s-blg-sd-filters">
+											<h4>Filter & Refine</h4>
+											<div class="s-blg-sd-filters-i-wrap">
+												<div class="s-blg-sd-filters-i">
+													<div class="bullet"><img src="images/bullet.svg" alt=""></div>
+													<div class="txt">Email Tempalte</div>
+												</div>
+												<div class="s-blg-sd-filters-i">
+													<div class="bullet"><img src="images/bullet.svg" alt=""></div>
+													<div class="txt">Landing page</div>
+												</div>
+												<div class="s-blg-sd-filters-i">
+													<div class="bullet"><img src="images/bullet.svg" alt=""></div>
+													<div class="txt">Email</div>
+												</div>
+												<div class="s-blg-sd-filters-i">
+													<div class="bullet"><img src="images/bullet.svg" alt=""></div>
+													<div class="txt">Unbounce landing page</div>
+												</div>
+												<div class="s-blg-sd-filters-i">
+													<div class="bullet"><img src="images/bullet.svg" alt=""></div>
+													<div class="txt">Webflow</div>
+												</div>
+												<div class="s-blg-sd-filters-i">
+													<div class="bullet"><img src="images/bullet.svg" alt=""></div>
+													<div class="txt">Weebly </div>
+												</div>
+												<div class="s-blg-sd-filters-i">
+													<div class="bullet"><img src="images/bullet.svg" alt=""></div>
+													<div class="txt">Weebly</div>
+												</div>
+												<div class="s-blg-sd-filters-i">
+													<div class="bullet"><img src="images/bullet.svg" alt=""></div>
+													<div class="txt">Jomola</div>
+												</div>
+												<div class="s-blg-sd-filters-i">
+													<div class="bullet"><img src="images/bullet.svg" alt=""></div>
+													<div class="txt">Drupal</div>
+												</div>
+												<div class="s-blg-sd-filters-i">
+													<div class="bullet"><img src="images/bullet.svg" alt=""></div>
+													<div class="txt">Concrete5</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="s-blg-sd-tags">
+											<h4>
+												<div class="txt">Tags</div>
+												<i class="far fa-chevron-down ind"></i>
+											</h4>
+											<div class="s-blg-sd-tags-i-wrap custom-scroll">
+												<div class="s-blg-sd-tags-i-wrap-inner" id="">
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Blog</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Blogging</span>
+														<span class="r-count">(20)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Magazine</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Modern</span>
+														<span class="r-count">(20)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">News</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">News</span>
+														<span class="r-count">(20)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Blogger</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Blog</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Blogging</span>
+														<span class="r-count">(20)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Magazine</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Modern</span>
+														<span class="r-count">(20)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">News</span>
+														<span class="r-count">(32)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">News</span>
+														<span class="r-count">(20)</span>
+													</label>
+													<label class="s-blg-sd-tags-i">
+														<input type="checkbox" class="checkbox checkbox-model">
+														<span class="txt">Blogger</span>
+														<span class="r-count">(32)</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- right-side-end -->
 
 								</div>
 							</div>
@@ -1078,7 +1219,8 @@
 
 
 	<!-- js -->
-	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- <script src="js/jquery-3.6.0.min.js"></script> -->
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<!-- browser-support -->
 	<script src="js/html5shiv.js"></script>
@@ -1088,6 +1230,7 @@
 	<!-- plugin-js -->
 	<script src="js/jquery.scrollUp.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<!-- custom-js -->
 	<script src="js/main.js"></script>
 	<!-- End All Js -->

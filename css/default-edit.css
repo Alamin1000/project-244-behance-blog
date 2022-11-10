@@ -308,3 +308,18 @@
     height: 38px;   /* Height of image */
     color: transparent;
 }
+
+
+/* custom-scrollbar */
+.mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    background: #E6E6E6 !important;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: #B3B3B3 !important;
+}
+.mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 8px;
+}
+.mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 8px;
+}

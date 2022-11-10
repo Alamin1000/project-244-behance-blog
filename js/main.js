@@ -55,6 +55,13 @@
 
 $(document).ready(function(){
 
+
+  $(".custom-scroll").mCustomScrollbar({
+    axis:"y",
+    theme:"light-3",
+    advanced:{autoExpandHorizontalScroll:true}
+  });
+
   // scroll up
   $(function(){
     $.scrollUp();
